@@ -93,7 +93,12 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://rgsamways.github.io/ufsdl/",
+            "name": "The Ultimate Fantasy Sports Dynasty League",
+            "email": "rgsamways@gmail.com"
+          }
         }
       }
     }
